@@ -27,13 +27,21 @@
 
     <!-- NAVBAR -->
     <nav class="fixed top-0 left-0 w-full bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-800">
-        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-            <a href="#" class="font-mono font-bold text-xl tracking-wider text-emerald-400">&lt;LensPixie /&gt;</a>
-            <div class="flex space-x-6 text-sm font-medium text-slate-300">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-2">
+            
+            <a href="#" class="font-mono font-bold tracking-wider text-emerald-400 text-base sm:text-xl shrink-0">
+                <span class="inline sm:hidden">&lt;LP /&gt;</span>
+                <span class="hidden sm:inline">&lt;LensPixie /&gt;</span>
+            </a>
+            
+            <div class="flex items-center space-x-4 sm:space-x-6 text-xs sm:text-sm font-medium text-slate-300">
                 <a href="#code" class="hover:text-emerald-400 transition">Code</a>
                 <a href="#lens" class="hover:text-rose-400 transition">Lens</a>
-                <a href="#collaborate" class="bg-emerald-500 hover:bg-emerald-600 text-slate-900 px-3 py-1.5 rounded-md transition font-semibold text-xs tracking-wide">COLLABORATE</a>
+                <a href="#collaborate" class="bg-emerald-500 hover:bg-emerald-600 text-slate-900 px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-md transition font-semibold text-[10px] sm:text-xs tracking-wide shrink-0">
+                    COLLABORATE
+                </a>
             </div>
+
         </div>
     </nav>
 
